@@ -1,9 +1,9 @@
 using UnityEngine;
-using UnityEngine.UI;  // Correct namespace for legacy UI
+using UnityEngine.UI;  
 
 public class Counter : MonoBehaviour
 {
-    public Text counterText;  // This should match the type of UI component you are using
+    public Text counterText; 
 
     private int count = 0;
 

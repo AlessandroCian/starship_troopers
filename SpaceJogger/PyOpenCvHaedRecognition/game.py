@@ -1,7 +1,3 @@
-# Author: Priyank Sharma
-# Control up, down, left and right movements with facial positions using
-# Haar Cascade classifier for face detection and OpenCV KCF tracker
-
 # Import necessary packages
 import time
 import cv2
@@ -123,7 +119,7 @@ while True:
 		if not check_latest_action or latest_action != action:
 			print(f"{action=} {latest_action=}")
 			latest_action = action
-			#pyautogui.press(action)
+			pyautogui.press(action)
 			start = time.time()
 
 	# draw the lines

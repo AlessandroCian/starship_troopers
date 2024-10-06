@@ -1,7 +1,3 @@
-# Author: Priyank Sharma
-# Control up, down, left and right movements with facial positions using
-# Haar Cascade classifier for face detection and OpenCV KCF tracker
-
 # Import necessary packages
 import time
 import cv2
